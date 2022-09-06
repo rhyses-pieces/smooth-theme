@@ -1,0 +1,15 @@
+{% extends "taxonomy_list.html" %}
+
+{% block content %}
+<article>
+    <h1>{{ term.name | title }} from <a href="{{ get_url(path=taxonomy.slug) }}">{{ taxonomy.name | title }}</a></h1>
+
+    {% for page in term.pages %}
+    <article>
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+        <p><a href="{{ page.permalink }}">See more?</a></p>
+    </article>
+    {% endfor %}
+</article>
+{% endblock %}

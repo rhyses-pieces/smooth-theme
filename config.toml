@@ -1,0 +1,40 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+
+title = "Your website title"
+description = "Your website description!"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+taxonomies = [
+    { name = "technologies" },
+    { name = "year", feed = true }
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+smooth_main_menu_links = [
+    { name = "home", url = "/" },
+    { name = "about", url = "/about/" },
+    { name = "blog", url = "/blog/" },
+    { name = "portfolio", url = "/portfolio/" },
+    { name = "contact", url = "/contact/" },
+]
+smooth_footer_description = """
+# Hello!
+my name..
+"""
+smooth_footer_menu = true
+smooth_footer_links = [
+    { social = "github", url = "https://github.com" },
+    { social = "twitter", url = "https://twitter.com" },
+    { social = "youtube", url = "https://youtube.com" },
+]

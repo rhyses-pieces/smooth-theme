@@ -1,0 +1,12 @@
+<aside class="about">
+    {{ config.extra.smooth_footer_description | markdown | safe }}
+</aside>
+{% if config.extra.smooth_footer_menu %}
+<nav id="footer-menu" aria-label="Social links">
+    <ul role="list">
+    {% for link in config.extra.smooth_footer_links %}
+        <li><a href="{{ link.url | safe }}">{{ link.social }}</a></li>
+    {% endfor %}
+    </ul>
+</nav>
+{% endif %}

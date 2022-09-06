@@ -1,0 +1,17 @@
+{% extends "section.html" %}
+
+{% block content %}
+<article>
+    <h1>{{ taxonomy.name | title }}</h1>
+    {{ macros::list(type="taxonomy") }}
+
+    {% for term in terms %}
+        <h2>{{ term.name }}</h2>
+        <ul>
+        {% for page in term.pages %}
+            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</article>
+{% endblock %}

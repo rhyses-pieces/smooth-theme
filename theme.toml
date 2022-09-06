@@ -1,0 +1,22 @@
+name = "smooth"
+description = "a simple portfolio theme"
+license = "MIT"
+homepage = ""
+min_version = "0.16.1"
+demo = ""
+
+taxonomies = [
+    { name = "technologies" },
+    { name = "year", feed = true }
+]
+
+[extra]
+smooth_main_menu_links = []
+smooth_footer_description = """
+"""
+smooth_footer_menu = false
+smooth_footer_links = []
+
+[author]
+name = "Rhys Kim"
+homepage = ""

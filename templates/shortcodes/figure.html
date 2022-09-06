@@ -1,0 +1,5 @@
+<figure>
+    {% set image = resize_image(path=path, width=width, height=0, op="fit_width") %}
+    <img src="{{ image.url }}" alt="{{ alt }}">
+    <figcaption>{{ caption }}</figcaption>
+</figure>

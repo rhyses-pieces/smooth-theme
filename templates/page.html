@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if page.ancestors | length > 1 %}
+    {% include "partials/breadcrumbs.html" %}
+{% endif %}
+
+<article>
+    <h1>{{ page.title | title }}</h1>
+    {% if page.date %}
+    <aside>
+    <time datetime="{{ page.date }}">{{ page.date }}</time>
+    </aside>
+    {% endif %}
+
+    {% if page.description %}
+    <p class="lead">{{ page.description }}</p>
+    {% endif %}
+
+    {% for key, value in page.taxonomies %}
+        {% for item in value %}
+        <span>{{ item }}</span>
+        {% endfor %}
+    {% endfor %}
+
+    {{ page.content | safe }}
+</article>
+{% endblock %}

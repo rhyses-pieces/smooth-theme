@@ -1,0 +1,8 @@
+<nav id="site-menu" aria-label="Main navigation">
+    <a href="#main">Skip to main content</a>
+    <ul role="list">
+        {% for link in config.extra.smooth_main_menu_links %}
+        <li><a href="{{ config.base_url ~ link.url }}" {% if current_path == link.url %}aria-current="page"{% endif %}>{{ link.name }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

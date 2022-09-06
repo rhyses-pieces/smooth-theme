@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% import "macros/list.html" as macros %}
+
+{% block content %}
+{% if section.ancestors %}
+    {% include "partials/breadcrumbs.html" %}
+{% endif %}
+
+<article>
+    <h1>{{ section.title | title }}</h1>
+    {% if section.content %}
+    {{ section.content | safe }}
+    {% endif %}
+
+    {{ macros::list(type="section") }}
+</article>
+{% endblock %}
