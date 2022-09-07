@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Your website title - 2021</title>
+	<subtitle>Your website description!</subtitle>
+	<link href="https://example.com/year/2021/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://example.com"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-09-07T00:00:00+00:00</updated>
+	<id>https://example.com/year/2021/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Another demo</title>
+		<published>2022-09-07T00:00:00+00:00</published>
+		<updated>2022-09-07T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://example.com/portfolio/demo-2/" type="text/html"/>
+		<id>https://example.com/portfolio/demo-2/</id>
+		<content type="html">&lt;p&gt;Lorem ipsum…&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;example.com&amp;#x2F;processed_images&amp;#x2F;1e626c0b5cbb78b100.jpg&quot; alt=&quot;An asset for Demo 2&quot;&gt;
+    &lt;figcaption&gt;&lt;p&gt;Photo by &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;@maxweisbecker?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Maximilian Weisbecker&lt;&#x2F;a&gt; on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;</content>
+	</entry>
+</feed>

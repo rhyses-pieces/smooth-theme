@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Your website title - 2022</title>
+	<subtitle>Your website description!</subtitle>
+	<link href="https://example.com/year/2022/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://example.com"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-09-06T00:00:00+00:00</updated>
+	<id>https://example.com/year/2022/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Demo 1</title>
+		<published>2022-09-06T00:00:00+00:00</published>
+		<updated>2022-09-06T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://example.com/portfolio/demo-1/" type="text/html"/>
+		<id>https://example.com/portfolio/demo-1/</id>
+		<content type="html">&lt;p&gt;Here’s an image.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;example.com&amp;#x2F;processed_images&amp;#x2F;571fec11555bb8bd00.jpg&quot; alt=&quot;An asset for Demo 1&quot;&gt;
+    &lt;figcaption&gt;&lt;p&gt;Photo of blog by &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;@pankajpatel?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Pankaj Patel&lt;&#x2F;a&gt; on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;</content>
+	</entry>
+</feed>
