@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://smooth-zola.netlify.app/"
 
 title = "Your website title"
 description = "Your website description!"
