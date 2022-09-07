@@ -50,7 +50,7 @@ Each portfolio post lives in its own folder with an `index.md` file and several 
 
 Here's an example for `project-1`:
 ```md
-{{ figure(path="asset-1.png", width=350, alt="An asset for Project 1"), caption="More info about the asset" }}
+{{ figure(path="asset-1.png", width=350, alt="An asset for Project 1", caption="More info about the asset") }}
 ```
 
 In the `figure` shortcode, you need:
