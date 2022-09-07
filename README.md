@@ -28,21 +28,21 @@ zola serve
 Here's what your `content` folder could look like with both portfolio posts and blog posts:
 ```
 content/
-│   ├── portfolio/
-│   │   ├── project-1/
-│   │   │   ├── index.md
-│   │   │   ├── asset-1.png
-│   │   │   └── asset-2.png
-│   │   └── project-2/
-│   │       ├── index.md
-│   │       ├── asset-3.png
-│   │       └── asset-4.png
-│   ├── blog/
-│   │   ├── _index.md
-│   │   ├── post-1.md
-│   │   └── post-2.md
-│   ├── about.md
-│   └── contact.md
+├── portfolio/
+│   ├── project-1/
+│   │   ├── index.md
+│   │   ├── asset-1.png
+│   │   └── asset-2.png
+│   └── project-2/
+│       ├── index.md
+│       ├── asset-3.png
+│       └── asset-4.png
+├── blog/
+│   ├── _index.md
+│   ├── post-1.md
+│   └── post-2.md
+├── about.md
+└── contact.md
 ```
 
 ### Portfolio
