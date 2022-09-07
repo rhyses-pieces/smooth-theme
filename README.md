@@ -7,6 +7,7 @@ Smooth is a responsive, semantic HTML theme for [Zola]((https://www.getzola.org/
 - Custom footer info box
 - Enable/disable footer menu
 - Custom footer menu links
+- ... more to come
 
 This theme is a work in progress, but you can get it up and running for your own site.
 
@@ -15,6 +16,7 @@ This theme is a work in progress, but you can get it up and running for your own
 - [Zola](https://www.getzola.org/)
 - ... and that's it!
 
+### Instructions
 Here's how you can get it up and running quickly:
 ```
 git clone https://github.com/rhyses-pieces/smooth-theme.git
