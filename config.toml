@@ -19,6 +19,9 @@ taxonomies = [
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_theme = "base16-ocean-dark"
+external_links_target_blank = true
+smart_punctuation = true
 
 [extra]
 smooth_main_menu_links = [
@@ -26,15 +29,15 @@ smooth_main_menu_links = [
     { name = "about", url = "/about/" },
     { name = "blog", url = "/blog/" },
     { name = "portfolio", url = "/portfolio/" },
-    { name = "contact", url = "/contact/" },
+    { name = "changelog", url="/changelog/" }
 ]
 smooth_footer_description = """
 # Hello!
-my name..
+My name is...
 """
 smooth_footer_menu = true
 smooth_footer_links = [
-    { social = "github", url = "https://github.com" },
-    { social = "twitter", url = "https://twitter.com" },
-    { social = "youtube", url = "https://youtube.com" },
+    { social = "GitHub", url = "https://github.com" },
+    { social = "Twitter", url = "https://twitter.com" },
+    { social = "YouTube", url = "https://youtube.com" },
 ]

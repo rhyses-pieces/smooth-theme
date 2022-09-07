@@ -3,7 +3,7 @@
     {% set current = section | default(value=page) %}
     {% for ancestor in current.ancestors %}
         {% set section = get_section(path=ancestor) %}
-        <li><a href="{{ section.permalink | safe }}">{{ section.title | default(value="home") }}</a></li>
+        <li><a href="{{ section.permalink | safe }}">{{ section.title | default(value="home") | title }}</a></li>
     {% endfor %}
         <li><a href="{{ current.permalink | safe }}" aria-current="page">{{ current.title }}</a></li>
     </ol>
