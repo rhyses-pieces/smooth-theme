@@ -18,7 +18,7 @@ This theme is a work in progress, but you can get it up and running for your own
 
 ### Instructions
 Here's how you can get it up and running quickly:
-```
+```bash
 git clone https://github.com/rhyses-pieces/smooth-theme.git
 cd smooth
 zola serve
