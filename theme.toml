@@ -1,9 +1,9 @@
 name = "smooth"
 description = "a simple portfolio theme"
 license = "MIT"
-homepage = ""
+homepage = "https://github.com/rhyses-pieces/smooth-theme/"
 min_version = "0.16.1"
-demo = ""
+demo = "https://smooth-zola.netlify.app/"
 
 taxonomies = [
     { name = "technologies" },
