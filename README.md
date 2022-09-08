@@ -1,5 +1,7 @@
 # Smooth for Zola
 
+![Screenshot of Smooth theme demo](screenshot.png)
+
 Smooth is a responsive, semantic HTML theme for [Zola]((https://www.getzola.org/)) with no NPM dependencies, using modern CSS features such as CSS grids and flexboxes.
 
 ## Features
