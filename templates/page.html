@@ -8,20 +8,19 @@
 <article>
     <h1>{{ page.title | title }}</h1>
     {% if page.date %}
-    <aside>
-    <time datetime="{{ page.date }}">{{ page.date }}</time>
-    </aside>
+    <time datetime="{{ page.date }}">Posted on {{ page.date }}</time>
     {% endif %}
-
+    <aside>
     {% if page.description %}
     <p class="lead">{{ page.description }}</p>
     {% endif %}
 
     {% for key, value in page.taxonomies %}
         {% for item in value %}
-        <span>{{ item }}</span>
+        <span class="tag">{{ item }}</span>
         {% endfor %}
     {% endfor %}
+    </aside>
 
     {{ page.content | safe }}
 </article>
